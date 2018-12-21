@@ -98,7 +98,7 @@ The example in _[Section 1]_ demonstrates a how to flow text from one positioned
 
 The example in [Section 3] demonstrates how to flow text into 4 different positioned boxes placed at different locations with the last positioned box being on the second page. To replicate it:
 
-Add four positioned boxes with CSS IDs _#stDiv, #ndDiv, #rdDiv_  on the first page and _#thDiv_  on the second page.  Then  format them in any way you like.
+Add four positioned boxes with CSS IDs **#stDiv, #ndDiv, #rdDiv**  on the first page and **#thDiv**  on the second page.  Then  format them in any way you like.
 - Add an empty **&lt;p&gt;**  element in each of the **&lt;div&gt;** elements.
 - Set the maximum heights _#ndDiv_ and _#rdDiv_ positioned boxes should have. Open the content_print_styles.css  and add the following CSS code:
 
@@ -107,7 +107,7 @@ Add four positioned boxes with CSS IDs _#stDiv, #ndDiv, #rdDiv_  on the first pa
 	  #ndDiv{**max-height**: 40mm;}
 	  #rdDiv{**max-height**: 30mm;}
 
-- Drag and drop the field _@Message@  into the main positioned box with ID _#stDiv
+- Drag and drop the field @Message@  into the main positioned box with ID **#stDiv**
 - Add a script in the Script pane (_4DivOverflow_), set its Selector to ***[section="Section 3"]***
 - Assuming that the above overflowingDiv() already exists in your template, copy and paste the following code in the new script:
 
