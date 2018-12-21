@@ -124,6 +124,6 @@ The steps for replicating this example are similar to the steps used for [Sectio
 The text should then flow automatically from the positioned box at the bottom margin of the current page to the positioned box located at the top margin of the following page.
 
 
-## Notes
+## #Notes
 Applies to Connect v1.8+
 
