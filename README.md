@@ -123,7 +123,6 @@ The example in [Section 4] simply simulates how one could overflow a DIV object,
 The steps for replicating this example are similar to the steps used for [Section 1] except for the positions of the two positioned boxes, which need to be at the bottom margin of current page and top margin of next page.
 The text should then flow automatically from the positioned box at the bottom margin of the current page to the positioned box located at the top margin of the following page.
 
-
-## #Notes
+### Notes
 Applies to Connect v1.8+
 
