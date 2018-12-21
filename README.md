@@ -102,17 +102,19 @@ Add four positioned boxes with CSS IDs _#stDiv, #ndDiv, #rdDiv_  on the first pa
 - Add an empty **&lt;p&gt;**  element in each of the **&lt;div&gt;** elements.
 - Set the maximum heights _#ndDiv_ and _#rdDiv_ positioned boxes should have. Open the content_print_styles.css  and add the following CSS code:
 
-	> _/* [Section 3] CSS */_
-	> #ndDiv{**max-height**: 40mm;}
-	> #rdDiv{**max-height**: 30mm;}
+	> 
+	  /* [Section 3] CSS */
+	  #ndDiv{**max-height**: 40mm;}
+	  #rdDiv{**max-height**: 30mm;}
 
 - Drag and drop the field _@Message@  into the main positioned box with ID _#stDiv
 - Add a script in the Script pane (_4DivOverflow_), set its Selector to ***[section="Section 3"]***
 - Assuming that the above overflowingDiv() already exists in your template, copy and paste the following code in the new script:
 
-	> overflowingDiv('#stDiv','#ndDiv');
-	> overflowingDiv('#ndDiv','#rdDiv');
-	> overflowingDiv('#rdDiv','#thDiv');
+	> 
+	  overflowingDiv('#stDiv','#ndDiv');
+	  overflowingDiv('#ndDiv','#rdDiv');
+	  overflowingDiv('#rdDiv','#thDiv');
 - As a result, a long enough text should overflow into all the **&lt;div&gt;** and unused **&lt;div&gt;** (except the first) should disappear off the pages if they are empty.
 
 **[Section 4]: Simulate a Page Break within a positioned box**
