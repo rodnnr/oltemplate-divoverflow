@@ -1,5 +1,5 @@
 
-## OL Connect Designer How to overflow text into multiple DIV objects
+## OL Connect Designer How to overflow text between multiple DIV objects
 ### Introduction
 
 One often sought requirement is the ability to dynamically flow text from one positioned box into one or multiple other positioned boxes scattered on the same page or any other pages of the same document. In addition, it is also often required to break up a positioned **&lt;div&gt;** object, which has reached the bottom margin of a page to allow it to overflow text onto the next page.
@@ -124,5 +124,6 @@ The steps for replicating this example are similar to the steps used for [Sectio
 The text should then flow automatically from the positioned box at the bottom margin of the current page to the positioned box located at the top margin of the following page.
 
 
-
+## Notes
+Applies to Connect v1.8+
 
