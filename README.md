@@ -1,7 +1,7 @@
 
 <object data="https://github.com/rodnnr/olconnect-divoverflow/blob/master/FlowTextBetweenMultipleDiv.pdf" width="700px" height="700px">
     <embed src="https://github.com/rodnnr/olconnect-divoverflow/blob/master/FlowTextBetweenMultipleDiv.pdf">
-        <p>Please download the guide in PDF format: <a href="https://github.com/rodnnr/olconnect-divoverflow/blob/master/FlowTextBetweenMultipleDiv.pdf">Download PDF</a>.</p>
+        <p>Please download the guide in PDF format: <a href="https://github.com/rodnnr/olconnect-divoverflow/blob/master/FlowTextBetweenMultipleDiv.pdf">Download Overflow text between multiple DIV objects</a>.</p>
     </embed>
 </object>
 
