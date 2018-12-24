@@ -38,7 +38,7 @@ The functions accepts three arguments:
 - ***overflowDivID*** (mandatory) is the CSS ID of the second **&lt;div&gt;** element which will accommodate the overflow text.
 - ***overflowDivBottomPadding*** (optional) is bottom padding of the above second **&lt;div&gt;** element. It is an optional argument, which defaults to 15px if it is not specified.
 
-```cs
+```javascript
 
 	function overflowingDiv(mainDivID,overflowDivID,overflowDivBottomPadding){
 		var mainDivHeight, p1Height, p2Height;
@@ -109,19 +109,20 @@ Add four positioned boxes with CSS IDs **#stDiv, #ndDiv, #rdDiv**  on the first 
 - Add an empty **&lt;p&gt;**  element in each of the **&lt;div&gt;** elements.
 - Set the maximum heights _#ndDiv_ and _#rdDiv_ positioned boxes should have. Open the content_print_styles.css  and add the following CSS code:
 
-	> 
+```css 
 	  /* [Section 3] CSS */
 	  #ndDiv{**max-height**: 40mm;}
 	  #rdDiv{**max-height**: 30mm;}
-
+```
 - Drag and drop the field @Message@  into the main positioned box with ID **#stDiv**
 - Add a script in the Script pane (_4DivOverflow_), set its Selector to ***[section="Section 3"]***
 - Assuming that the above overflowingDiv() already exists in your template, copy and paste the following code in the new script:
 
-	> 
+```javascript
 	  overflowingDiv('#stDiv','#ndDiv');
 	  overflowingDiv('#ndDiv','#rdDiv');
 	  overflowingDiv('#rdDiv','#thDiv');
+```
 - As a result, a long enough text should overflow into all the **&lt;div&gt;** and unused **&lt;div&gt;** (except the first) should disappear off the pages if they are empty.
 
 **[Section 4]: Simulate a Page Break within a positioned box**
