@@ -38,7 +38,8 @@ The functions accepts three arguments:
 - ***overflowDivID*** (mandatory) is the CSS ID of the second **&lt;div&gt;** element which will accommodate the overflow text.
 - ***overflowDivBottomPadding*** (optional) is bottom padding of the above second **&lt;div&gt;** element. It is an optional argument, which defaults to 15px if it is not specified.
 
->
+```cs
+
 	function overflowingDiv(mainDivID,overflowDivID,overflowDivBottomPadding){
 		var mainDivHeight, p1Height, p2Height;
 		var p1, p2, overflowDiv;
@@ -84,7 +85,7 @@ The functions accepts three arguments:
 	} 
 
 
-
+```
 ### Applications
 
 The example demonstrates how **&lt;div&gt;** overflow can be achieved for 2, 3 and even 4 **&lt;div&gt;**. There is an additional example on [Section 4], which simulates a page break within a **&lt;div&gt;** element.
